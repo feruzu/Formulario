@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="style.css">    
+
+</head>
+<body>
+    <div class="container" id="main">
+        <div class="registrarse">
+            <form action="#">
+                <h1>Crea una cuenta</h1>
+                <div class="red-social">
+                    <a href="#"><box-icon type='logo' name='facebook'></box-icon></a>
+                    <a href="#"><box-icon name='linkedin' type='logo' ></box-icon></a>
+                </div>
+                <p>O use su email para registrarse</p>
+                <input type="text" name="nombre" placeholder="Nombre" required="">
+                <input type="email" name="email" placeholder="Email" required="">
+                <input type="password" name="contraseña" placeholder="Contraseña" required="" autocomplete="on">
+                <button>Registrarse</button>
+            </form>
+        </div>
+        <div class="iniciar-sesion">
+            <form action="#">
+                <h1>Iniciar sesión</h1>
+                <div class="red-social">
+                    <a href="#"><box-icon type='logo' name='facebook'></box-icon></a>
+                    <a href="#"><box-icon name='linkedin' type='logo' ></box-icon></a>
+                </div>
+                <p>Use su cuenta</p>
+                <input type="email" name="email" placeholder="Email" required="">
+                <input type="password" name="contraseña" placeholder="Contraseña" required="" autocomplete="on">
+                <a href="#">Olvide mi contraseña</a>
+                <button>Iniciar sesión</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-izq">
+                    <h1>Bienvenido/a de nuevo</h1>
+                    <p>Para mantenerse conectado con nosotros por favor inicie sesión con su información personal</p>
+                    <button id="iniciar-s">Iniciar sesión</button>
+                </div>
+                <div class="overlay-der">
+                    <h1>!Hola!</h1>
+                    <p>Ingresa tus datos personales y vive esta nueva aventura con nosotros</p>
+                    <button id="registrar-s">Registrarse</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="script.js"/>
+</body>
+</html>
