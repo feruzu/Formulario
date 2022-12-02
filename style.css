@@ -19,7 +19,7 @@ body {
     max-width: 100%;
     min-height: 480px;
     background: #fff;
-    border-radius: 10px;
+    border-radius: 20px;
     overflow: hidden;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 }
@@ -68,14 +68,23 @@ p {
     margin: 15px 0 20px;
 }
 
-input {
-    background: #eee;
+ input {
     padding: 12px 15px;
     margin: 8px 15px;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 20px;
     border: none;
     outline: none;
+    box-shadow:  9px 9px 15px #dedede,
+             -9px -9px 15px #fff;
+} 
+
+input:focus,
+input:hover {
+    box-shadow: -10px -10px 15px rgba(255, 255, 255,0.5),
+    10px 10px 15px rgba(70, 70, 70, 0.12),
+    inset -10px -10px 15px rgba(255, 255, 255,0.5),
+    inset 10px 10px 15px rgba(70, 70, 70, 0.12);
 }
 
 a {
