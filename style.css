@@ -110,7 +110,6 @@ button {
     cursor: pointer;
 }
 
-
 button:active {
     transform: scale(0.90);
 }
@@ -209,4 +208,8 @@ button:active {
     align-items: center;
     border: 1px solid #ccc;
     border-radius: 50%;
+}
+
+i {
+    font-size: 28px;
 }
